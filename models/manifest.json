@@ -1,0 +1,43 @@
+{
+  "model": "LightGBM",
+  "classes": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "lead_sets": {
+    "12-lead": [
+      "I",
+      "II",
+      "III",
+      "AVR",
+      "AVL",
+      "AVF",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "6-lead": [
+      "I",
+      "II",
+      "III",
+      "AVR",
+      "AVL",
+      "AVF"
+    ],
+    "3-lead": [
+      "I",
+      "II",
+      "V2"
+    ],
+    "1-lead": [
+      "I"
+    ]
+  },
+  "synthetic": false
+}

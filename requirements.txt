@@ -1,0 +1,8 @@
+# Runtime dependencies for the Streamlit app (used by Streamlit Community Cloud)
+streamlit>=1.50
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+lightgbm>=4.3
+plotly>=5.20
+jinja2>=3.1

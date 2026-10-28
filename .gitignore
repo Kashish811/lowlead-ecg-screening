@@ -1,0 +1,12 @@
+# data is downloaded by the notebook - never commit it (1.7 GB)
+data/
+*.zip
+*.part
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+reports/*.pdf
+~$*

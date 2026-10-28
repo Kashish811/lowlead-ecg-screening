@@ -1,0 +1,16 @@
+model,candidate,settings,val_macro_auroc
+LogReg,default,{'C': 0.05},0.9034462545956433
+LogReg,candidate,{'C': 0.01},0.905848983430768
+LogReg,candidate,{'C': 0.2},0.9017071593770746
+LogReg,candidate,{'C': 1.0},0.9000336911206119
+RandomForest,default,"{'min_samples_leaf': 3, 'max_features': 'sqrt'}",0.921901282951746
+RandomForest,candidate,"{'min_samples_leaf': 1, 'max_features': 'sqrt'}",0.9207809803616108
+RandomForest,candidate,"{'min_samples_leaf': 10, 'max_features': 'sqrt'}",0.9209193023575863
+RandomForest,candidate,"{'min_samples_leaf': 3, 'max_features': 'log2'}",0.9177208985463073
+LightGBM,default,"{'learning_rate': 0.03, 'num_leaves': 31, 'n_estimators': 500}",0.9316072422075244
+LightGBM,candidate,"{'learning_rate': 0.03, 'num_leaves': 15, 'n_estimators': 556}",0.9309599623642146
+LightGBM,candidate,"{'learning_rate': 0.03, 'num_leaves': 31, 'n_estimators': 338}",0.9322088718589265
+LightGBM,candidate,"{'learning_rate': 0.03, 'num_leaves': 63, 'n_estimators': 241}",0.9317308001393023
+LightGBM,candidate,"{'learning_rate': 0.06, 'num_leaves': 15, 'n_estimators': 299}",0.9311587258035688
+LightGBM,candidate,"{'learning_rate': 0.06, 'num_leaves': 31, 'n_estimators': 171}",0.9306550498731218
+LightGBM,candidate,"{'learning_rate': 0.06, 'num_leaves': 63, 'n_estimators': 109}",0.9309654452663858
